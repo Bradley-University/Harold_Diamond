@@ -1,0 +1,258 @@
+#title {
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438__480.jpg");
+  background-repeat:no-repeat;
+  height: 600px;
+  background-size: cover;
+  padding-left: 100px;
+  padding-top: 250px;
+}
+
+#title h1 {
+  font-family:"Prata", serif;
+  font-size:450%;
+  color:white;
+  text-shadow:-2px 3px #FF2400;
+}
+
+#title p {
+  color:white;
+  text-shadow:-1px 2px #FF2400;
+  font-family:"Lora", serif;
+  font-size:200%;
+}
+
+/*Button*/
+
+section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#buttonContainer {
+  text-align: center;
+  margin: auto;
+}
+
+#buttonContainer H2 {
+  font-family:"Prata";
+  font-size:200%;
+}
+
+#buttonContainer p {
+  font-family:"Lora";
+  font-size:125%;
+}
+
+button {
+  padding: 20px 120px;
+  border: none;
+  font-size: 15pt;
+  font-family:"Lora", serif;
+  background-color:#FF8A8A;
+  color:#363636;
+}
+
+button:hover {
+  background-color: #D10000;
+  color:white;
+}
+
+/*Table*/
+
+#gridContainer {
+  display: flex;
+  flex-direction:row-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF8A8A;
+  column-gap:40px;
+}
+
+#gridText {
+  margin: auto;
+  text-align:center;
+  color:white;
+}
+
+#gridText h3 {
+  font-family:"Prata", serif;
+  font-size:155%;
+}
+
+#gridText p {
+  font-family:"Lora", serif;
+  font-size:100%;
+}
+
+#tableContainer {
+  max-width:900px;
+  margin: auto;
+}
+
+table {
+  background-color: #D10000;
+  border-color: #FF8A8A;
+  border: 2px solid;
+  border-collapse: collapse;
+  width:100%;
+  color:white;
+  font-family:"Lora", serif;
+  font-size:90%;
+}
+
+th {
+  border: 2px solid;
+  border-collapse:collapse;
+  border-color:#FF8A8A;
+  padding:20px;
+  text-align:center;
+}
+
+td {
+  border: 2px solid;
+  border-collapse:collapse;
+  border-color:#FF8A8A;
+  padding:13px;
+  text-align:center;
+}
+
+/*List*/
+
+#container4 {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  column-gap:40px;
+}
+
+#listText {
+
+}
+
+#listText h3 {
+  font-family:"Prata", serif;
+  font-size:250%;
+}
+
+#listText p, ol {
+  font-family:"Lora", serif;
+  font-size:100%;
+}
+
+#image {
+  align-items:center;
+  justify-content:center;
+  margin:auto;
+  max-width:500px;
+}
+
+#image img {
+  width:100%;
+}
+
+/*Image Row*/
+
+.lastContainer {
+  display:flex;
+  flex-direction:row;
+  column-gap:20px;
+  background-color:#FF8A8A;
+}
+
+.listItem {
+  text-align:center;
+}
+
+.listItem p {
+  text-align:left;
+}
+
+.listItem img {
+  width:100%;
+}
+
+#item1 h3 {
+  font-family:"Prata", serif;
+  color:white;
+}
+
+#item1 p {
+  font-family:"Lora", serif;
+  color:white;
+}
+
+#item2 h3 {
+  font-family:"Prata", serif;
+  color:white;
+}
+
+#item2 p {
+  font-family:"Lora", serif;
+  color:white;
+}
+
+#item3 h3 {
+  font-family:"Prata", serif;
+  color:white;
+}
+
+#item3 p {
+  font-family:"Lora", serif;
+  color:white;
+}
+
+/*TABLET Media Queries*/
+
+@media screen and (max-width:1023px) {
+  #title {padding-left:30px;}
+  section {padding-left:30px; padding-right:30px;}
+  #title h1 {font-size:350%;}
+  #title p {font-size:170%;}
+  #buttonContainer h2 {font-size:150%;}
+  #buttonContainer p {font-size:100%;}
+  button {font-size:12pt; padding:15px 100px;}
+  #gridText h3 {font-size:140%;}
+  #gridText p {font-size:80%;}
+  table {font-size:70%;}
+  th {padding:15px;}
+  td {padding:10px;}
+  #listText h3 {font-size:230%;}
+  #listText p, ol {font-size:90%;}
+  #item1 h3 {font-size:80%;}
+  #item1 p {font-size:80%;}
+  #item2 h3 {font-size:80%;}
+  #item2 p {font-size:80%;}
+  #item3 h3 {font-size:80%;}
+  #item3 p {font-size:80%;}
+}
+
+/*PHONE Media Queries*/
+
+@media screen and (max-width:480px) {
+  #title {padding-left:16px;}
+  section {padding-left:16px; padding-right:16px;}
+  #title h1 {font-size:250%;}
+  #title p {font-size:140%;}
+  #buttonContainer h2 {font-size:100%;}
+  #buttonContainer p {font-size:80%;}
+  button {font-size:10pt; padding:10px 80px;}
+  #gridContainer {flex-direction:column;}
+  #gridText h3 {font-size:120%;}
+  #gridText p {font-size:90%;}
+  table {font-size;50%;}
+  th {padding:10px;}
+  td {padding:5px;}
+  #container4 {flex-direction:column;}
+  #listText h3 {font-size:200%;}
+  #listText p, ol {90%;}
+  .lastContainer {flex-direction:column;}
+  #item1 h3 {font-size:100%;}
+  #item1 p {font-size:75%;}
+  #item2 h3 {font-size:100%;}
+  #item2 p {font-size:75%;}
+  #item3 h3 {font-size:100%;}
+  #item3 p {font-size:75%;}
+}
