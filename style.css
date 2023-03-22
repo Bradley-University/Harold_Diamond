@@ -67,11 +67,10 @@ button:hover {
   align-items: center;
   justify-content: center;
   background-color: #FF8A8A;
-  column-gap:50px;
+  column-gap:40px;
 }
 
 #gridText {
-  width: 50%;
   margin: auto;
   text-align:center;
   color:white;
@@ -88,8 +87,7 @@ button:hover {
 }
 
 #tableContainer {
-  max-width:600px;
-  width: 50%;
+  max-width:900px;
   margin: auto;
 }
 
@@ -127,11 +125,11 @@ td {
   flex-direction:row;
   align-items:center;
   justify-content:center;
-  column-gap:25px;
+  column-gap:40px;
 }
 
 #listText {
-  width:50%;
+
 }
 
 #listText h3 {
@@ -145,10 +143,10 @@ td {
 }
 
 #image {
-  width:50%;
   align-items:center;
   justify-content:center;
   margin:auto;
+  max-width:500px;
 }
 
 #image img {
@@ -242,16 +240,19 @@ td {
   #buttonContainer p {font-size:80%;}
   button {font-size:10pt; padding:10px 80px;}
   #gridContainer {flex-direction:column;}
-  #gridText h3 {font-size:130%;}
+  #gridText h3 {font-size:120%;}
   #gridText p {font-size:90%;}
+  table {font-size;50%;}
+  th {padding:10px;}
+  td {padding:5px;}
   #container4 {flex-direction:column;}
   #listText h3 {font-size:200%;}
   #listText p, ol {90%;}
   .lastContainer {flex-direction:column;}
-  #item1 h3 {font-size:60%;}
-  #item1 p {font-size:60%;}
-  #item2 h3 {font-size:60%;}
-  #item2 p {font-size:60%;}
-  #item3 h3 {font-size:60%;}
-  #item3 p {font-size:60%;}
+  #item1 h3 {font-size:100%;}
+  #item1 p {font-size:75%;}
+  #item2 h3 {font-size:100%;}
+  #item2 p {font-size:75%;}
+  #item3 h3 {font-size:100%;}
+  #item3 p {font-size:75%;}
 }
